@@ -1,0 +1,3 @@
+
+<input type="file" (change)="onInputChange($event)" >
+<video-trimmer *ngIf="inputBase64" [source]="inputBase64" (base64)="data($event)"></video-trimmer>
